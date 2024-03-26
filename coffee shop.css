@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.all-content{
+    background: white;
+}
+
+.cf{
+    position: absolute;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: #b2744c;
+    border-radius: 10px;
+}
+html::-webkit-scrollbar{
+    width: 10px;
+    height: 100px;
+}
+
+/*navbar start*/
+#navbar{
+    background-color:#b2744c;
+}
+#logo img{
+    border-radius: 10px;
+    width: 140px;
+    margin-left: 40px;
+}
+.navbar-nav{
+    margin-left: 50px;
+}
+.nav-item .nav-link{
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: o.5s;
+}
+.nav-item .nav-links:hover{
+    background: #f7f5f2;
+    border-radius: 5px;
+    color: black;
+}
+navbar form button{
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+/*navbar end*/
+
+
+/* home section start*/
+#home{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(coffee.gallery5.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90%;
+}
+#home .content{
+    padding-top: 210px;
+    margin-left: 56px;
+}
+#home .content h3{
+    font-size: 50px;
+    color: white;
+}
+#home .content p{
+    margin-top: 10px;
+    color: white;
+}
+#btn{
+    width: 150px;
+    height: 36px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn:hover{
+    background:#b2744c;
+    color: white;
+}
+
+/*home section start*/
+#about{
+    width: 100%;
+    height: 100vh;
+}
+#about .container{
+    padding-top: 50px;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading span{
+    color: #b2744c;
+}
+#about .card img{
+    border-radius: 10px;
+}
+#about-btn{
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid #b2744c;
+    color: #b2744c;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#about-btn:hover{
+    background-color: #b2744c;
+    color: white;
+}
+ @media screen and(max-width:982px){
+    #about p{
+        font-size: 8px;
+    }
+}
+@media screen and(max-width:766px){
+    #about p{
+        font-size: 15px;
+    }
+}
+/*about section end*/
+
+
+
+/* top cards start */
+#top-cards{
+    width: 100%;
+    height: 6pvh;
+    background: #f7f5f2;
+}
+.heading2{
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading2 span{
+    columns: #b2744c;
+}
+#top-cards .container{
+    margin-top: 30px;
+}
+.top-cards .card{
+    border-radius: 10px;
+    transition: o.5s;
+    cursor: pointer;
+}
+#top-cards .card img{
+    border-radius: 10px;
+}
+#top-cards .card :hover{
+    transform: translateY(-10px);
+}
+
+/* menu start */
+#menu{
+    width: 100%;
+    margin-top: 60px;
+}
+.heading3{
+    text-align: center;
+    font-size: 30px;
+    color: #b2744c;
+    font-weight: bold;
+    border-radius: 2px solid #b2744c;
+}
+#container2 {
+margin-top: 30px;
+}
+#menu .card{
+    box-shadow: rgba(red, green, blue, alpha);
+}
+.star i{
+    color: #b2744c;
+}
+#menu h3{
+    text-align: center;
+    color: #b2744c;
+    margin-top: 10px;
+    font-size: 25px;
+}
+#menu p{
+    font-size: 16px;
+    color: #b2744c;
+    padding-top: 10px;
+}
+#menu p .span{
+    float: right;
+    cursor: pointer;
+}
+/* menu end */
+
+
+/* product section start*/
+#product{
+    width: 100%;
+}
+.heading4{
+    text-align: center;
+    color: #b2744c;
+    font-size: 30px;
+    padding-top: 100px;
+    border-bottom: 2px solid #b2744c;
+}
+#container3{
+    margin-top: 30px;
+}
+#product h3{
+    text-align: center;
+    color: #b2744c;
+    font-size: 23px;
+}
+#product p{
+    color: #b2744c;
+    padding-top: 10px;
+}
+#product p span{
+    float: right;
+    cursor: pointer;
+}
+/* product section end*/
+
+
+
+/* our gallery start*/
+#gallery{
+    width: 100%;
+}
+.heading5{
+    text-align: center;
+    color: black;
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#gallery .heading span{
+    color: #b2744c;
+}
+#gallery .card{
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#gallery .card image{
+    border-radius: 10px;
+    
+}
+/* our gallery end*/
+
+
+
+
+/* contact start*/
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+/* contact end*/
+  
+
+/* blogs start */
+#blogs{
+    width: 100%;
+}
+#blogs .heading7{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+#blogs .heading7 span{
+    color: #b2744c;
+}
+#blogs .caontainer{
+    margin-top: 60px;
+}
+#blogs h5{
+    color: #b2744c;
+}
+#blog-btn{
+    width: 200px;
+    height: 36px;
+    border: none;
+    color: white;
+    background: #b2744c;
+}
+/* blogs end */
+
+/* footer start */
+#footer{
+    width: 100%;
+    background: #b2744c;
+    margin-top: 50px;
+}
+.footer-logo img{
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#footer .social-links{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.credits{
+    color: white;
+    margin-top: 20px;
+    text-shadow: 0px,0px,1px black;
+}
+.credits a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
